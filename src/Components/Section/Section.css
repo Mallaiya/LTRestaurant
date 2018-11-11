@@ -1,0 +1,139 @@
+.Section{
+    font-family: 'Roboto Slab', serif;
+    height: 500px;
+    margin: 20px 0;
+}
+
+.section-head h2{
+    padding: 10px 0;
+    color: #000;
+    font-weight: 600;
+    padding: 20px 0;
+}
+
+.list-row{
+    margin-top: 20px;
+    box-shadow: 0 0 5px #000;
+}
+
+.col-lg-4{
+    margin: 10px auto;
+}
+
+.box{
+    margin: 10px;
+    padding: 10px 20px;
+    border: 2px solid #000;
+}
+
+.box img{
+    width: 275px;
+}
+
+.amount{
+    margin: 5px 0;
+}
+.amount span{
+    color: #247e94;
+    font-weight: 600;
+}
+
+.type{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.box button{
+    color: #fff;
+    background: #eb4947;
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 1200px) and (min-width: 992px){
+    .box img{
+        width: 220px;
+    }    
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px){
+    .Section{
+        height: auto;
+        margin: 20px 20% 50px 20%;
+    }       
+    .box{
+        margin: 20px 10px;
+    }
+    .col-lg-4{
+        margin-top: 10px;
+    }
+    .box img{
+        width: 100%;
+        height: 300px
+    }
+    .amount, .type{
+        margin: 10px 0;
+        font-size: 18px!important;
+    }
+    .box button{
+        margin: 10px 0;
+        padding: 10px;        
+    }   
+}
+
+@media screen and (max-width: 768px) {
+    .Section{
+        height: auto;
+        margin: 20px 10% 50px 10%;
+    }    
+    .box{
+        margin: 20px 10px;
+    }
+    .section-head h2{
+        font-size: 24px;        
+    }
+    .col-lg-4{
+        margin-top: 10px;
+    }
+    .box img{
+        width: 100%;
+        height: 200px;
+    }
+    .amount, .type{
+        margin: 10px 0;
+        font-size: 18px!important;
+    }
+    .box button{
+        margin: 10px 0;
+        padding: 5px;        
+    }   
+}
+
+@media screen and (max-width: 500px) {
+    .Section{
+        height: auto;
+        margin: 20px 5px 50px 5px;
+    }
+    .box{
+        margin: 10px 0px;
+        padding: 0 0 10px 0;
+    }
+    .section-head h2{
+        font-size: 24px;        
+    }
+    .col-lg-4{
+        margin-top: 5px;
+    }
+    .box img{
+        width: 100%;
+        height: 200px;
+    }
+    .amount, .type{
+        margin: 10px 0;
+        font-size: 16px!important;
+    }
+    .box button{
+        margin: 5px 0;
+        font-size: 12px;
+    }          
+}
